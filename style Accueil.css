@@ -1,0 +1,22 @@
+* {font-family: liberation serif}
+
+body {background-color: black}
+
+h1 {color: red;
+    text-align: center;
+    font-size: 31px}
+p {color: #ccc}
+
+.galerie {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 900px;
+    margin: auto}
+
+.galerie img {width: 350px;
+    border-radius: 10%}
+
+a {display: inline-block}
+
+p {color: #ccc}

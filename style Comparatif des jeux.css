@@ -1,0 +1,54 @@
+* {font-family: liberation serif}
+
+body {background-color: black}
+
+h1 {color: red;
+    text-align: center}
+.menu {justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    padding: 10px;
+    margin: 0;}
+
+.menu li a {color: white;
+    font-weight: bolder}
+
+.menu li a:hover {color: purple}
+
+h2, h3 {color: red}
+
+p, table {color: #ccc}
+
+table {width: 75%;
+    border-collapse: collapse}
+
+th {background-color: #222;
+    color: white}
+
+th, td {border: 1px solid #999;
+        padding: 14px}
+
+.Titre {background-color: #222;
+    color: white;
+    width: 20%}
+
+.Total {display: flex;
+    gap: 50px;
+    margin: 20px ;
+    width: fit-content}
+
+.Droite {display: flex;
+    flex-direction: column;
+    gap: 30px}
+
+.Droite img {width: 395px;
+    border-radius: 10%}
+
+
+
+
+
+
+
+
